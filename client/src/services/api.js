@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'https://coding-interview-platform-mzi5.onrender.com/api'
+  baseURL: 'https://coding-interviewplatform.onrender.com'
 })
 
 // automatically attach token to every request

@@ -49,7 +49,7 @@ const [submitted, setSubmitted] = useState(false)
   // init socket
   useEffect(() => {
     if (!user) return
-    const socket = io('https://coding-interview-platform-mzi5.onrender.com')
+    const socket = io('https://coding-interviewplatform.onrender.com')
     socketRef.current = socket
 
     socket.on('connect', () => {
