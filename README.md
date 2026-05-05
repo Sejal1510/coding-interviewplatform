@@ -38,7 +38,7 @@ bashcd client
 npm install
 npm start
 4. Open in browser
-http://localhost:3000
+
 
  How It Works
 Interviewer creates a room
